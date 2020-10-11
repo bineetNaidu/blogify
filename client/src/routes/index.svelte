@@ -1,3 +1,7 @@
+<script>
+  import Button from "../components/Button.svelte";
+</script>
+
 <style>
   h1,
   p {
@@ -21,6 +25,7 @@
     width: 100%;
     justify-content: center;
     height: 100%;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -37,4 +42,6 @@
 
 <div class="container">
   <h1>Blofigy</h1>
+  <p>Publish your passions, your way</p>
+  <Button type="secondary" flat>Create your Blog</Button>
 </div>
