@@ -84,7 +84,7 @@
       <p class="blog__title">{title}</p>
     </div>
     <p class="blog__body">{body.slice(0, 80)}...</p>
-    <a href={`/blog/${id}`}>Read More...</a>
+    <a rel="prefetch" href={`/blog/${id}`}>Read More...</a>
     <div class="blog__detailFooter">
       <p>{published_at}</p>
       <p>{author}</p>
