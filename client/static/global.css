@@ -36,7 +36,8 @@ code {
 }
 
 #sapper {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 @media (min-width: 400px) {
