@@ -2,6 +2,7 @@
   import axios from "axios";
   import UserStore from "../store.js";
   import Button from "../components/Button.svelte";
+  import { goto } from "@sapper/app";
 
   let identifier;
   let password;
@@ -22,6 +23,7 @@
       }));
       identifier = "";
       password = "";
+      goto("blog");
     }
   };
 </script>

@@ -43,5 +43,7 @@
 <div class="container">
   <h1>Blofigy</h1>
   <p>Publish your passions, your way</p>
-  <Button type="secondary" flat>Create your Blog</Button>
+  <Button type="secondary" flat>
+    <a href="/blog/add">Create your Blog</a>
+  </Button>
 </div>
