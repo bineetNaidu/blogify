@@ -43,6 +43,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Blogify | {title}</title>
+</svelte:head>
+
 <div class="blog">
   {#if image}
     <img src={`http://localhost:4242${image?.url}`} alt={blog.title} />

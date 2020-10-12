@@ -58,6 +58,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Blogify | Add Blog</title>
+</svelte:head>
+
 <form on:submit|preventDefault={handleSubmit}>
   <h1>Create Blog</h1>
   <input type="text" placeholder="Title" bind:value={title} />

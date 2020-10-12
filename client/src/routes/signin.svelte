@@ -45,6 +45,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Blogify | Sign In</title>
+</svelte:head>
+
 <form on:submit|preventDefault={handleSubmit}>
   <h1>Sign In with Blogify</h1>
   <input type="text" placeholder="UserName" bind:value={identifier} />

@@ -19,6 +19,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Blogify | Blogs</title>
+</svelte:head>
+
 <h1 class="jobs__tile">Recent Blogs</h1>
 
 {#each blogs as blog (blog.id)}
